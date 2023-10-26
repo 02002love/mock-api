@@ -1,0 +1,62 @@
+{
+    "apiListTitle": "接口列表",
+    "apiListData": [
+        {
+            "apiName": "/api/userList1",
+            "apiReturn": {
+                "code": 0,
+                "msg": "操作成功",
+                "result": [
+                    11,
+                    22,
+                    33
+                ]
+            }
+        },
+        {
+            "apiName": "/api/userList2",
+            "apiReturn": {
+                "code": 0,
+                "msg": "操作成功",
+                "result": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "apiName": "/sjw",
+            "apiReturn": {
+                "code": 0,
+                "msg": "操作成功",
+                "result": {
+                    "name": "宋金委",
+                    "sex": "male"
+                }
+            }
+        },
+        {
+            "apiName": "/sjw/aaa",
+            "apiReturn": {
+                "code": 0,
+                "msg": "操作成功",
+                "result": {
+                    "name": "宋金委",
+                    "sex": "male"
+                }
+            }
+        },
+        {
+            "apiName": "/sjw/aaab",
+            "apiReturn": {
+                "code": 0,
+                "msg": "操作成功",
+                "result": {
+                    "name": "aaab",
+                    "sex": "aaab"
+                }
+            }
+        }
+    ]
+}
